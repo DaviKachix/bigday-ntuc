@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="flex justify-center mb-6">
           <div className="bg-white p-4 rounded-full shadow-lg border border-gray-200">
             <img
-              src="/logo.png"
+              src="/orange-nobg.png"
               alt="NTUC Logo"
               className="h-16 w-16 object-contain"
             />
