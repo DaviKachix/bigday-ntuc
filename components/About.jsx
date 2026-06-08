@@ -19,7 +19,7 @@ export default function About() {
             className="w-full h-[450px] object-cover rounded-2xl shadow-lg"
           />
 
-          <div className="absolute bottom-4 left-4 bg-white/90 px-4 py-2 rounded-lg text-sm font-medium text-purple-950">
+          <div className="absolute bottom-4 left-4 bg-white/90 px-4 py-2 rounded-lg text-sm font-medium text-orange-650">
             {isEN ? "Northern Tanzania Mission Field" : "Uwanja wa Utume Kaskazini Tanzania"}
           </div>
         </div>
@@ -27,7 +27,7 @@ export default function About() {
         {/* RIGHT CONTENT */}
         <div>
 
-          <h2 className="text-3xl md:text-4xl font-bold text-purple-950 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-orange-650 leading-tight">
             {isEN
               ? "Northern Tanzania Union Conference"
               : "Mkutano wa Muungano wa Kaskazini Tanzania"}
@@ -52,7 +52,7 @@ export default function About() {
           </p>
 
           {/* FINAL QUOTE */}
-          <div className="mt-10 border-l-4 border-purple-950 pl-5 italic text-gray-700">
+          <div className="mt-10 border-l-4 border-orange-650 pl-5 italic text-gray-700">
             {isEN
               ? "Welcome to NTUC — serving with humility, mission, and purpose."
               : "Karibu NTUC — tukitumikia kwa unyenyekevu, utume na kusudi."}

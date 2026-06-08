@@ -55,7 +55,7 @@ export default function Hero() {
         </p>
 
         {/* CTA */}
-        <button className="mt-8 bg-purple-950 hover:bg-purple-950 text-white px-7 py-3 rounded-xl shadow-xl transition-all duration-300">
+        <button className="mt-8 bg-orange-650 hover:bg-orange-650 text-white px-7 py-3 rounded-xl shadow-xl transition-all duration-300">
           {t.cta}
         </button>
 

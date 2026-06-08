@@ -14,7 +14,7 @@ export default function Project() {
         {/* LEFT CONTENT */}
         <div>
 
-          <p className="text-purple-950 font-semibold tracking-wide uppercase text-sm">
+          <p className="text-orange-650 font-semibold tracking-wide uppercase text-sm">
             {isEN ? "Phase One Project" : "Awamu ya Kwanza"}
           </p>
 
@@ -34,29 +34,29 @@ export default function Project() {
           <div className="mt-8 space-y-4 text-gray-700">
 
             <p>
-              <span className="text-purple-950 font-semibold">• </span>
+              <span className="text-orange-650 font-semibold">• </span>
               {isEN ? "Administrative Center for mission coordination" : "Kituo cha uratibu wa shughuli za utume"}
             </p>
 
             <p>
-              <span className="text-purple-950 font-semibold">• </span>
+              <span className="text-orange-650 font-semibold">• </span>
               {isEN ? "Systems supporting evangelism and outreach" : "Mifumo ya kusaidia uinjilisti na huduma"}
             </p>
 
             <p>
-              <span className="text-purple-950 font-semibold">• </span>
+              <span className="text-orange-650 font-semibold">• </span>
               {isEN ? "Leadership training and development" : "Mafunzo na maendeleo ya uongozi"}
             </p>
 
             <p>
-              <span className="text-purple-950 font-semibold">• </span>
+              <span className="text-orange-650 font-semibold">• </span>
               {isEN ? "Infrastructure growth across NTUC" : "Ukuaji wa miundombinu ya NTUC"}
             </p>
 
           </div>
 
           {/* CTA */}
-          <button className="mt-10 bg-purple-950 text-white px-7 py-3 rounded-xl shadow-md hover:bg-purple-950 transition">
+          <button className="mt-10 bg-orange-650 text-white px-7 py-3 rounded-xl shadow-md hover:bg-orange-650 transition">
             {isEN ? "Support This Project" : "Changia Mradi Huu"}
           </button>
 
@@ -71,7 +71,7 @@ export default function Project() {
           />
 
           {/* overlay label */}
-          <div className="absolute bottom-4 left-4 bg-white/90 px-4 py-2 rounded-lg shadow text-sm font-medium text-purple-950">
+          <div className="absolute bottom-4 left-4 bg-white/90 px-4 py-2 rounded-lg shadow text-sm font-medium text-orange-650">
             {isEN ? "Vision for NTUC Future" : "Maono ya Baadaye ya NTUC"}
           </div>
         </div>
