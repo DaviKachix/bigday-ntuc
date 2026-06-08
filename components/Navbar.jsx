@@ -13,6 +13,13 @@ export default function Navbar() {
   const navLink =
     "text-gray-700 hover:text-purple-950 transition-colors duration-200";
 
+  const langBtn = (active) =>
+    `px-2 py-1 rounded-md text-sm transition ${
+      active
+        ? "bg-purple-950 text-white"
+        : "text-gray-500 hover:text-purple-950"
+    }`;
+
   return (
     <>
       {/* TOP NAV */}
@@ -29,7 +36,7 @@ export default function Navbar() {
               />
 
               <div className="leading-tight">
-                <p className="font-bold text-purple-950 tracking-tight">
+                <p className="font-bold text-purple-950">
                   NTUC BIG DAY 2026
                 </p>
                 <p className="text-xs text-gray-500">
@@ -49,28 +56,18 @@ export default function Navbar() {
             {/* RIGHT CONTROLS */}
             <div className="flex items-center gap-4">
 
-              {/* LANGUAGE SWITCH */}
-              <div className="hidden sm:flex items-center gap-2 text-sm">
+              {/* LANGUAGE SWITCH (FIXED VISIBILITY) */}
+              <div className="flex items-center gap-1 bg-gray-100 p-1 rounded-lg">
                 <button
                   onClick={() => switchLang("en")}
-                  className={
-                    lang === "en"
-                      ? "text-purple-950 font-semibold"
-                      : "text-gray-500 hover:text-purple-950"
-                  }
+                  className={langBtn(lang === "en")}
                 >
                   EN
                 </button>
 
-                <span className="text-gray-300">|</span>
-
                 <button
                   onClick={() => switchLang("sw")}
-                  className={
-                    lang === "sw"
-                      ? "text-purple-950 font-semibold"
-                      : "text-gray-500 hover:text-purple-950"
-                  }
+                  className={langBtn(lang === "sw")}
                 >
                   SW
                 </button>
@@ -127,13 +124,13 @@ export default function Navbar() {
 
             <button
               onClick={() => setOpen(false)}
-              className="text-gray-600 hover:text-black text-xl"
+              className="text-gray-600 text-xl"
             >
               ✕
             </button>
           </div>
 
-          {/* NAV LINKS */}
+          {/* NAV LINKS (FIXED ROUTES) */}
           <nav className="flex flex-col gap-5 p-6 text-sm font-medium">
             <Link onClick={() => setOpen(false)} href="/" className={navLink}>
               {t.nav_home}
