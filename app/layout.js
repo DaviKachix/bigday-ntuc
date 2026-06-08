@@ -2,7 +2,52 @@ import { LangProvider } from "@/context/LangContext";
 
 export const metadata = {
   title: "NTUC Big Day 2026",
-  description: "Phase One NTUC Headquarters Development Project",
+  description:
+    "Official NTUC Big Day 2026 platform for church giving, projects, and ministry updates.",
+
+  keywords: [
+    "NTUC",
+    "Big Day 2026",
+    "SDA Church",
+    "Tanzania Church",
+    "Giving Platform",
+    "Church Projects"
+  ],
+
+  authors: [{ name: "NTUC Ministry" }],
+  creator: "NTUC Ministry",
+
+  openGraph: {
+    title: "NTUC Big Day 2026",
+    description:
+      "Support the NTUC Big Day 2026 Phase One Project and church mission growth.",
+    url: "https://yourdomain.com",
+    siteName: "NTUC Big Day 2026",
+    images: [
+      {
+        url: "/orange-nobg.png",
+        width: 1200,
+        height: 630,
+        alt: "NTUC Big Day 2026"
+      }
+    ],
+    locale: "en_US",
+    type: "website"
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "NTUC Big Day 2026",
+    description:
+      "Support the NTUC Big Day 2026 Phase One Project.",
+    images: ["/orange-nobg.png"]
+  },
+
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/white.png"
+  }
 };
 
 export default function RootLayout({ children }) {
