@@ -47,3 +47,8 @@ a {
     color-scheme: dark;
   }
 }
+
+/* globals.css */
+:root {
+  --ntuc: 75 32 127;
+}
