@@ -30,11 +30,11 @@ export default function Hero() {
 
         {/* LOGO (CLEAN WHITE BADGE) */}
         <div className="flex justify-center mb-6">
-          <div className="bg-white p-4 rounded-full shadow-lg border border-gray-200">
+          <div className="p-4 rounded-full shadow-lg border border-gray-200">
             <img
               src="/orange-nobg.png"
               alt="NTUC Logo"
-              className="h-16 w-16 object-contain"
+              className="h-16 w-16 object-cover rounded-full"
             />
           </div>
         </div>
@@ -53,12 +53,6 @@ export default function Hero() {
         <p className="mt-2 text-sm md:text-base text-white/70 tracking-wide">
           {t.tagline}
         </p>
-
-        {/* CTA */}
-        <button className="mt-8 bg-orange-600 hover:bg-orange-600 text-white px-7 py-3 rounded-xl shadow-xl transition-all duration-300">
-          {t.cta}
-        </button>
-
       </div>
     </section>
   );

@@ -32,7 +32,7 @@ export default function Navbar() {
               <img
                 src="/orange.png"
                 alt="NTUC Logo"
-                className="h-11 w-11 object-contain"
+                className="h-11 w-11 rounded-full object-contain"
               />
 
               <div className="leading-tight">

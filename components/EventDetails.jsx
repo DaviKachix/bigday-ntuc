@@ -61,7 +61,7 @@ export default function EventDetails() {
               <span className="font-semibold text-orange-600">
                 {isEN ? "Time:" : "Muda:"}
               </span>{" "}
-              2:00 AM – 8:00 PM
+              8:00 – 17:00
             </p>
 
           </div>
