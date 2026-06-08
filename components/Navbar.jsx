@@ -30,7 +30,7 @@ export default function Navbar() {
             {/* BRAND */}
             <div className="flex items-center gap-3">
               <img
-                src="/logo.png"
+                src="/orange.png"
                 alt="NTUC Logo"
                 className="h-11 w-11 object-contain"
               />

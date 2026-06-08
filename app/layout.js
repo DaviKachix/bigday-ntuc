@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
             content: "";
             position: fixed;
             inset: 0;
-            background: url('/logo.png') no-repeat center;
+            background: url('/orange.png') no-repeat center;
             background-size: 320px;
             opacity: 0.54;
             pointer-events: none;
