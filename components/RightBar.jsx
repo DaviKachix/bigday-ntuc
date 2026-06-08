@@ -9,7 +9,7 @@ export default function RightBar() {
           hidden md:flex
           fixed right-0 top-0
           h-screen w-[14.285%]
-          bg-orange-650
+          bg-orange-600
           flex-col items-center justify-start
           py-6 z-50
         "
@@ -27,7 +27,7 @@ export default function RightBar() {
           md:hidden
           fixed right-0 top-0
           h-screen w-10
-          bg-gradient-to-b from-orange-650 to-purple-900
+          bg-gradient-to-b from-orange-600 to-purple-900
           flex flex-col items-center justify-start
           py-3 z-50
           border-l border-white/10

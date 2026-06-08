@@ -25,7 +25,7 @@ export default function Give() {
               className="w-full h-[260px] md:h-[380px] object-cover"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-orange-650/90 via-orange-650/40 to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-orange-600/90 via-orange-600/40 to-transparent" />
 
             <div className="absolute bottom-6 left-6 text-white max-w-xl">
               <h1 className="text-2xl md:text-3xl font-bold leading-tight">
@@ -43,13 +43,13 @@ export default function Give() {
               Total Project Budget
             </p>
 
-            <h2 className="text-4xl md:text-5xl font-bold text-orange-650">
+            <h2 className="text-4xl md:text-5xl font-bold text-orange-600">
               10,000,000,000 TZS
             </h2>
 
             <p className="text-gray-600">
               Phase One Construction Target:
-              <span className="font-semibold text-orange-650 ml-2">
+              <span className="font-semibold text-orange-600 ml-2">
                 3,300,000,000 TZS
               </span>
             </p>
@@ -71,7 +71,7 @@ export default function Give() {
           {/* BANK DETAILS */}
           <div className="border-t pt-10 max-w-2xl mx-auto text-center space-y-6">
 
-            <h3 className="text-lg font-semibold text-orange-650">
+            <h3 className="text-lg font-semibold text-orange-600">
               Official Contribution Account (NMB Bank Only)
             </h3>
 
@@ -91,7 +91,7 @@ export default function Give() {
 
               <div>
                 <p className="text-sm text-gray-500">Account Number</p>
-                <p className="text-3xl font-bold text-orange-650 tracking-widest">
+                <p className="text-3xl font-bold text-orange-600 tracking-widest">
                   40810276593
                 </p>
               </div>

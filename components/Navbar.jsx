@@ -11,13 +11,13 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const navLink =
-    "text-gray-700 hover:text-orange-650 transition-colors duration-200";
+    "text-gray-700 hover:text-orange-600 transition-colors duration-200";
 
   const langBtn = (active) =>
     `px-2 py-1 rounded-md text-sm transition ${
       active
-        ? "bg-orange-650 text-white"
-        : "text-gray-500 hover:text-orange-650"
+        ? "bg-orange-600 text-white"
+        : "text-gray-500 hover:text-orange-600"
     }`;
 
   return (
@@ -36,7 +36,7 @@ export default function Navbar() {
               />
 
               <div className="leading-tight">
-                <p className="font-bold text-orange-650">
+                <p className="font-bold text-orange-700">
                   NTUC BIG DAY 2026
                 </p>
                 <p className="text-xs text-gray-500">
@@ -118,7 +118,7 @@ export default function Navbar() {
 
           {/* HEADER */}
           <div className="flex items-center justify-between p-5 border-b">
-            <div className="font-bold text-orange-650">
+            <div className="font-bold text-orange-600">
               NTUC MENU
             </div>
 
@@ -151,7 +151,7 @@ export default function Navbar() {
 
           {/* CTA */}
           <div className="mt-auto p-6 border-t">
-            <button className="w-full bg-orange-650 hover:bg-purple-900 text-white py-3 rounded-xl transition">
+            <button className="w-full bg-orange-600 hover:bg-purple-900 text-white py-3 rounded-xl transition">
               {lang === "en" ? "Donate Now" : "Changia Sasa"}
             </button>
           </div>

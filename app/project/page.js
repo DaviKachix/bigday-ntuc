@@ -40,7 +40,7 @@ export default function Project() {
 
           {/* HEADER */}
           <div className="text-center max-w-2xl mx-auto">
-            <h1 className="text-3xl md:text-4xl font-bold text-orange-650">
+            <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
               Phase One Development Project
             </h1>
 

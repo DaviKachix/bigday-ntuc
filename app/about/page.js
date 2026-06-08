@@ -11,7 +11,7 @@ export default function About() {
 
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-14">
-          <h1 className="text-3xl md:text-4xl font-bold text-orange-650 leading-tight">
+          <h1 className="text-3xl md:text-4xl font-bold text-orange-600 leading-tight">
             Northern Tanzania Union Conference
           </h1>
 
@@ -32,7 +32,7 @@ export default function About() {
                 alt="NTUC Overview"
                 className="w-full h-[340px] object-cover scale-105 hover:scale-100 transition duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-tr from-orange-650/20 via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-tr from-orange-600/20 via-transparent to-transparent" />
             </div>
           </div>
 
@@ -51,7 +51,7 @@ export default function About() {
                 446,000 members across multiple regions.
               </p>
 
-              <div className="pt-4 space-y-2 text-sm text-gray-600 border-l-2 border-orange-650 pl-4">
+              <div className="pt-4 space-y-2 text-sm text-gray-600 border-l-2 border-orange-600 pl-4">
                 <p>Over 2,000 Churches & Companies</p>
                 <p>446,000+ Members</p>
                 <p>Universities, Schools & Training Institutions</p>
@@ -71,7 +71,7 @@ export default function About() {
             Serengeti, and Ngorongoro.
           </p>
 
-          <p className="mt-6 font-semibold text-orange-650">
+          <p className="mt-6 font-semibold text-orange-600">
             “Welcome to NTUC — serving with humility, mission, and purpose.”
           </p>
 

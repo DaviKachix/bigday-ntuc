@@ -45,7 +45,7 @@ export default function Give() {
       <div className="max-w-3xl mx-auto text-center">
 
         {/* TITLE */}
-        <h2 className="text-3xl md:text-4xl font-bold text-orange-650">
+        <h2 className="text-3xl md:text-4xl font-bold text-orange-600">
           {isEN ? "Support the Work of God" : "Changia Kazi ya Mungu"}
         </h2>
 
@@ -57,7 +57,7 @@ export default function Give() {
         </p>
 
         {/* BIBLE VERSE (SLIDES IN FROM LEFT) */}
-        <div className="mt-14 slide-left text-center border-l-4 border-orange-650 pl-6 italic text-gray-700">
+        <div className="mt-14 slide-left text-center border-l-4 border-orange-600 pl-6 italic text-gray-700">
 
           <p className="text-lg leading-relaxed">
             “Each one must give as he has decided in his heart, not reluctantly or under compulsion, for God loves a cheerful giver.”
@@ -94,7 +94,7 @@ export default function Give() {
             <p className="text-sm text-gray-500">
               {isEN ? "Account Number" : "Namba ya Akaunti"}
             </p>
-            <p className="text-2xl font-bold text-orange-650 tracking-widest">
+            <p className="text-2xl font-bold text-orange-600 tracking-widest">
               40810276593
             </p>
           </div>
