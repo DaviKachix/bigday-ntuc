@@ -8,10 +8,10 @@ export default function Give() {
     <div className="relative min-h-screen bg-white">
 
       {/* RIGHT BAR */}
-      <RightBar />
+      {/*<RightBar />*/}
 
       {/* MAIN CONTENT */}
-      <main className="pr-[14.285%]">
+      <main className="">
 
         <Navbar />
 

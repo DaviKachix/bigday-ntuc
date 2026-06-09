@@ -52,3 +52,16 @@ a {
 :root {
   --ntuc: 75 32 127;
 }
+
+@keyframes ntuc-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-ntuc-spin {
+  animation: ntuc-spin 1.2s linear infinite;
+}

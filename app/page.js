@@ -39,10 +39,10 @@ export default function Home() {
       </div>
 
       {/* RIGHT BRAND COLUMN */}
-      <RightBar />
+      {/* <RightBar /> */}
 
       {/* PAGE */}
-      <main className="md:pr-[14.285%] pr-10">
+      <main className="">
 
         <Navbar />
 

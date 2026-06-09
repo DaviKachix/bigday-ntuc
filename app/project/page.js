@@ -30,9 +30,9 @@ export default function Project() {
   return (
     <div className="relative min-h-screen bg-white">
 
-      <RightBar />
+       {/*<RightBar />*/}
 
-      <main className="pr-[14.285%]">
+      <main className="">
 
         <Navbar />
 
