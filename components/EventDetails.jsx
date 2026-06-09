@@ -1,6 +1,7 @@
 "use client";
 
 import { useLang } from "@/context/LangContext";
+import Link from "next/link";
 
 export default function EventDetails() {
   const { lang } = useLang();
@@ -66,10 +67,13 @@ export default function EventDetails() {
 
           </div>
 
-          {/* CALL TO ACTION */}
-          <button className="mt-8 bg-orange-600 text-white px-6 py-3 rounded-xl shadow hover:bg-orange-600 transition">
-            {isEN ? "Support This Event" : "Changia Tukio Hili"}
-          </button>
+
+{/* CALL TO ACTION */}
+<Link href="/give">
+  <button className="mt-8 bg-orange-600 text-white px-6 py-3 rounded-xl shadow hover:bg-orange-700 transition">
+    {isEN ? "Support This Event" : "Changia Tukio Hili"}
+  </button>
+</Link>
 
         </div>
       </div>

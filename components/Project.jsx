@@ -1,6 +1,7 @@
 "use client";
 
 import { useLang } from "@/context/LangContext";
+import Link from "next/link";
 
 export default function Project() {
   const { lang } = useLang();
@@ -55,10 +56,13 @@ export default function Project() {
 
           </div>
 
-          {/* CTA */}
-          <button className="mt-10 bg-orange-600 text-white px-7 py-3 rounded-xl shadow-md hover:bg-orange-600 transition">
-            {isEN ? "Support This Project" : "Changia Mradi Huu"}
-          </button>
+{/* CTA */}
+<Link
+  href="/give"
+  className="inline-block mt-10 bg-orange-600 text-white px-7 py-3 rounded-xl shadow-md hover:bg-orange-700 transition"
+>
+  {isEN ? "Support This Project" : "Changia Mradi Huu"}
+</Link>
 
         </div>
 

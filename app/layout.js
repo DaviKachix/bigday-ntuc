@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
             inset: 0;
             background: url('/orange.png') no-repeat center;
             background-size: 320px;
-            opacity: 0.54;
+            opacity: 0.04;
             pointer-events: none;
             z-index: 0;
           }
