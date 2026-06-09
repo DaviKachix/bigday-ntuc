@@ -7,76 +7,97 @@ export default function About() {
     <>
       <Navbar />
 
-      <section className="relative max-w-6xl mx-auto px-6 md:px-10 py-16">
+      <section className="max-w-5xl mx-auto px-6 md:px-10 py-16">
 
-        {/* HEADER */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
-          <h1 className="text-3xl md:text-4xl font-bold text-orange-600 leading-tight">
+        <header className="text-center mb-14">
+          <h1 className="text-4xl md:text-5xl font-bold text-orange-600">
             Northern Tanzania Union Conference
           </h1>
 
-          <p className="mt-4 text-gray-600 leading-relaxed">
-            NTUC is the highest Seventh-day Adventist administrative structure in Northern Tanzania,
-            coordinating mission, education, health, and church development across the region.
+          <p className="mt-5 text-gray-600 text-lg">
+            Seventh-day Adventist Church
           </p>
-        </div>
+        </header>
 
-        {/* MAIN GRID */}
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <article className="max-w-4xl mx-auto">
 
-          {/* IMAGE */}
-          <div className="relative order-2 md:order-1">
-            <div className="relative overflow-hidden rounded-2xl shadow-sm">
-              <img
-                src="/img1.jpg"
-                alt="NTUC Overview"
-                className="w-full h-[340px] object-cover scale-105 hover:scale-100 transition duration-700"
-              />
-              <div className="absolute inset-0 bg-gradient-to-tr from-orange-600/20 via-transparent to-transparent" />
-            </div>
+          <div className="space-y-8 text-gray-700 leading-8 text-justify">
+
+            <p>
+              The Northern Tanzania Union Conference (NTUC) is an administrative
+              unit of the Seventh-day Adventist Church responsible for
+              coordinating the mission, ministries, and institutional work of
+              the Church throughout Northern Tanzania. The Union provides
+              spiritual leadership, strategic direction, and operational support
+              to its constituent fields and institutions in advancing the
+              Church’s mission of proclaiming the everlasting gospel and
+              preparing people for the soon return of Jesus Christ.
+            </p>
+
+            <p>
+              Through its conferences, missions, churches, educational
+              institutions, healthcare facilities, media ministries, and
+              community outreach programs, NTUC seeks to promote holistic
+              ministry that addresses spiritual, physical, social, and
+              educational needs. The Union works closely with local church
+              members, leaders, and institutions to strengthen discipleship,
+              evangelism, stewardship, youth development, and community service.
+            </p>
+
+            <p>
+              NTUC serves a large and diverse membership spread across multiple
+              regions of Northern Tanzania. Its ministry network includes more
+              than 2,000 churches and companies, serving over 900,000 members.
+              The Union also supports universities, schools, training
+              institutions, hospitals, clinics, media ministries, and
+              humanitarian initiatives that contribute to the well-being of
+              communities throughout its territory.
+            </p>
+
+            <h2 className="pt-6 text-2xl font-semibold text-orange-600">
+              Historical Background
+            </h2>
+
+            <p>
+              The Seventh-day Adventist message was introduced to Tanzania in
+              1903 and has continued to grow steadily through decades of
+              evangelistic outreach, education, healthcare ministry, and church
+              planting. As the work expanded, administrative structures evolved
+              to provide effective leadership and support for the growing
+              membership and institutional network.
+            </p>
+
+            <p>
+              Following organizational developments within the Church, the
+              Northern Tanzania Union Conference was formally organized in 2013.
+              Since then, NTUC has continued to strengthen mission initiatives,
+              develop institutions, and support the growth of the Church across
+              its territory while remaining committed to the values and mission
+              of the worldwide Seventh-day Adventist Church.
+            </p>
+
+            <h2 className="pt-6 text-2xl font-semibold text-orange-600">
+              Mission and Commitment
+            </h2>
+
+            <p>
+              NTUC remains dedicated to sharing the love of Christ through
+              evangelism, education, healthcare, humanitarian service, and
+              leadership development. Guided by biblical principles and inspired
+              by a rich heritage of faith, the Union continues to serve its
+              communities with integrity, compassion, and a commitment to
+              excellence in ministry.
+            </p>
+
           </div>
 
-          {/* TEXT */}
-          <div className="order-1 md:order-2">
-
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-
-              <p>
-                NTUC oversees mission work across Northern Tanzania, integrating evangelism with
-                education, healthcare, and community development.
-              </p>
-
-              <p>
-                It operates through more than 2,000 churches and companies, supporting over
-                900,000 members across multiple regions.
-              </p>
-
-              <div className="pt-4 space-y-2 text-sm text-gray-600 border-l-2 border-orange-600 pl-4">
-                <p>Over 2,000 Churches & Companies</p>
-                <p>900,000+ Members</p>
-                <p>Universities, Schools & Training Institutions</p>
-                <p>Hospitals, Media, Clinics & ADRA Tanzania Programs</p>
-              </div>
-
-            </div>
+          <div className="mt-16 pt-8 border-t border-gray-200 text-center">
+            <p className="text-lg font-medium text-orange-600">
+              Serving God, Sharing Hope, Transforming Lives.
+            </p>
           </div>
-        </div>
 
-        {/* FOOTER SECTION */}
-        <div className="mt-16 pt-10 border-t border-gray-100 max-w-3xl mx-auto text-center">
-
-          <p className="text-gray-700 leading-relaxed">
-            The gospel work in Tanzania began in 1903 under the Tanzania Union Mission and was later reorganized in 2013.
-            Today NTUC stands strengthened by both mission heritage and natural landmarks such as Mount Kilimanjaro,
-            Serengeti,Ngorongoro and Nyanza Lake Victoria Regions.
-          </p>
-
-          <p className="mt-6 font-semibold text-orange-600">
-            “Welcome to NTUC — serving with humility, mission, and purpose.”
-          </p>
-
-        </div>
-
+        </article>
       </section>
     </>
   );

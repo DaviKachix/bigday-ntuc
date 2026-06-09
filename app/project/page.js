@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Navbar from "@/components/Navbar";
-import RightBar from "@/components/RightBar";
 
 export default function Project() {
   const images = [
@@ -28,101 +27,106 @@ export default function Project() {
     setActiveIndex((prev) => (prev - 1 + images.length) % images.length);
 
   return (
-    <div className="relative min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
+      <Navbar />
 
-       {/*<RightBar />*/}
+      <section className="max-w-5xl mx-auto px-6 md:px-10 py-16">
 
-      <main className="">
+        {/* HEADER */}
+        <header className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold text-orange-600">
+            NTUC HQ Project – Njiro Hill
+          </h1>
 
-        <Navbar />
+          <p className="mt-4 text-gray-600">
+            Total: 10.6B TZS · Phase 1: 3.3B TZS
+          </p>
+        </header>
 
-        <section className="max-w-6xl mx-auto px-6 md:px-10 py-16">
+        {/* STORY */}
+        <div className="max-w-3xl mx-auto space-y-8 text-gray-700 leading-8 text-justify">
 
-          {/* HEADER */}
-          <div className="text-center max-w-2xl mx-auto">
-            <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
-              Phase One Development Project
-            </h1>
+          <p className="border-l-2 border-orange-600 pl-4">
+            The Seventh-day Adventist Church is constructing the Northern Tanzania Union Conference
+            Headquarters at Njiro Hill, a strategic center designed to strengthen mission coordination,
+            leadership, and administration across the region.
+          </p>
 
-            <p className="mt-4 text-gray-600">
-              NTUC Headquarters strengthening mission coordination and leadership across Northern Tanzania.
-            </p>
-          </div>
+          <p className="border-l-2 border-orange-600 pl-4">
+            The project focuses on mission, leadership, and administration, built to institutional
+            standards of quality. Phase One, valued at 3.3B TZS, marks the beginning of the development,
+            forming the foundation of the full 10.6B TZS headquarters plan.
+          </p>
 
-          {/* FEATURE STRIP */}
-          <div className="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 text-center text-sm text-gray-600">
-            <div className="py-4 border-b md:border-b-0 md:border-r">Foundation</div>
-            <div className="py-4 border-b md:border-b-0 md:border-r">Administration</div>
-            <div className="py-4 border-b md:border-b-0 md:border-r">Mission Hub</div>
-            <div className="py-4">Infrastructure</div>
-          </div>
+          <p className="border-l-2 border-orange-600 pl-4">
+            The project is currently set to begin, with a completion target of less than 5 years.
+            It reflects a structured institutional effort to support long-term mission growth and
+            church development in Northern Tanzania.
+          </p>
 
-          {/* GALLERY */}
-          <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-4">
+        </div>
 
+        {/* GALLERY */}
+        <div className="mt-14 border-t border-gray-100 pt-10">
+
+          <h2 className="text-xl font-semibold text-orange-600 text-center mb-6">
+            The Project
+          </h2>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {images.map((img, i) => (
-              <div
+              <button
                 key={i}
                 onClick={() => openViewer(i)}
-                className="relative cursor-pointer group overflow-hidden rounded-xl"
+                className="overflow-hidden rounded-md border border-gray-200"
               >
                 <img
                   src={img}
-                  className="w-full h-40 md:h-52 object-cover transition duration-500 group-hover:scale-110"
+                  alt={`Project ${i + 1}`}
+                  className="w-full h-44 object-cover"
                 />
-
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition" />
-
-                <div className="absolute bottom-2 left-2 text-white text-xs opacity-0 group-hover:opacity-100 transition">
-                  Click to view
-                </div>
-              </div>
+              </button>
             ))}
-
           </div>
+        </div>
 
-        </section>
-      </main>
+      </section>
 
-      {/* LIGHTBOX VIEWER */}
+      {/* LIGHTBOX */}
       {activeIndex !== null && (
         <div className="fixed inset-0 bg-black/90 z-[999] flex items-center justify-center">
 
-          {/* CLOSE */}
           <button
             onClick={closeViewer}
-            className="absolute top-5 right-5 text-white text-2xl"
+            className="absolute top-5 right-5 text-white text-3xl"
           >
             ✕
           </button>
 
-          {/* PREV */}
           <button
             onClick={prev}
-            className="absolute left-5 text-white text-3xl"
+            className="absolute left-5 text-white text-4xl"
           >
             ‹
           </button>
 
-          {/* IMAGE */}
           <img
             src={images[activeIndex]}
             className="max-h-[85vh] max-w-[90vw] object-contain rounded-lg"
+            alt="Project preview"
           />
 
-          {/* NEXT */}
           <button
             onClick={next}
-            className="absolute right-5 text-white text-3xl"
+            className="absolute right-5 text-white text-4xl"
           >
             ›
           </button>
 
-          {/* DOWNLOAD */}
           <a
             href={images[activeIndex]}
             download
-            className="absolute bottom-6 bg-purple-600 text-white px-5 py-2 rounded-lg text-sm"
+            className="absolute bottom-6 bg-orange-600 text-white px-5 py-2 rounded-md text-sm"
           >
             Download
           </a>

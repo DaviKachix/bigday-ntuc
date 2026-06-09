@@ -1,120 +1,89 @@
 "use client";
 
 import Navbar from "@/components/Navbar";
-import RightBar from "@/components/RightBar";
 
 export default function Give() {
   return (
-    <div className="relative min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
+      <Navbar />
 
-      {/* RIGHT BAR */}
-      {/*<RightBar />*/}
+      <section className="max-w-4xl mx-auto px-6 md:px-10 py-16 space-y-10">
 
-      {/* MAIN CONTENT */}
-      <main className="">
+        {/* TITLE */}
+        <header className="text-center space-y-2">
+          <h1 className="text-3xl md:text-4xl font-bold text-orange-600">
+            NTUC Headquarters Construction Project
+          </h1>
 
-        <Navbar />
-
-        <section className="max-w-5xl mx-auto px-6 md:px-10 py-14 space-y-14">
-
-          {/* HERO IMAGE */}
-          <div className="relative rounded-2xl overflow-hidden">
-            <img
-              src="/img2.jpg"
-              alt="NTUC Headquarters Construction Project"
-              className="w-full h-[260px] md:h-[380px] object-cover"
-            />
-
-            <div className="absolute inset-0 bg-gradient-to-t from-orange-600/90 via-orange-600/40 to-transparent" />
-
-            <div className="absolute bottom-6 left-6 text-white max-w-xl">
-              <h1 className="text-2xl md:text-3xl font-bold leading-tight">
-                Construction of a Modern NTUC Office Building
-              </h1>
-              <p className="text-white/80 text-sm mt-2">
-                A new administrative headquarters to strengthen leadership, coordination, and mission infrastructure across Northern Tanzania.
-              </p>
-            </div>
-          </div>
-
-          {/* GOAL */}
-          <div className="text-center space-y-2">
-            <p className="text-gray-500 text-sm tracking-wide">
-              Total Project Budget
-            </p>
-
-            <h2 className="text-4xl md:text-5xl font-bold text-orange-600">
-              10,600,000,000 TZS
-            </h2>
-
-            <p className="text-gray-600">
-              Phase One Construction Target:
-              <span className="font-semibold text-orange-600 ml-2">
-                3,300,000,000 TZS
-              </span>
-            </p>
-          </div>
-
-          {/* DESCRIPTION */}
-          <div className="max-w-3xl mx-auto text-gray-700 leading-relaxed space-y-4 text-center">
-            <p>
-              This project focuses on the construction of a modern NTUC headquarters building that will serve as
-              the central administrative and coordination hub for church operations in Northern Tanzania.
-            </p>
-
-            <p>
-              The facility will improve efficiency in leadership, mission planning, education support, and
-              institutional development across all NTUC regions.
-            </p>
-          </div>
-
-          {/* BANK DETAILS */}
-          <div className="border-t pt-10 max-w-2xl mx-auto text-center space-y-6">
-
-            <h3 className="text-lg font-semibold text-orange-600">
-              Official Contribution Account (NMB Bank Only)
-            </h3>
-
-            <div className="space-y-3 text-gray-700">
-
-              <div>
-                <p className="text-sm text-gray-500">Bank</p>
-                <p className="font-semibold">NMB Bank</p>
-              </div>
-
-              <div>
-                <p className="text-sm text-gray-500">Account Name</p>
-                <p className="font-semibold">
-                  SDA Church Office Building – NTUC Headquarters
-                </p>
-              </div>
-
-              <div>
-                <p className="text-sm text-gray-500">Account Number</p>
-                <p className="text-3xl font-bold text-orange-600 tracking-widest">
-                  40810276593
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          {/* FOOT IMAGE */}
-          <div className="rounded-2xl overflow-hidden">
-            <img
-              src="/img1.jpg"
-              alt="NTUC Construction Progress Vision"
-              className="w-full h-[220px] md:h-[300px] object-cover"
-            />
-          </div>
-
-          {/* FOOT NOTE */}
-          <p className="text-center text-xs text-gray-500">
-            All contributions are officially allocated to the construction of the NTUC Phase One Headquarters building project.
+          <p className="text-gray-600">
+            Njiro Hill Development Initiative
           </p>
+        </header>
 
-        </section>
-      </main>
+        {/* IMAGE */}
+        <div className="overflow-hidden rounded-md">
+          <img
+            src="/img2.jpg"
+            alt="NTUC Project"
+            className="w-full h-[280px] object-cover"
+          />
+        </div>
+
+        {/* SINGLE NARRATION */}
+        <p className="border-l-2 border-orange-600 pl-4 text-gray-700 leading-8 text-justify">
+          The Northern Tanzania Union Conference is constructing a new headquarters at Njiro Hill to serve as the central administrative hub for church operations, coordination, and mission work across the region, with a total project value of 10,600,000,000 TZS and Phase One set at 3,300,000,000 TZS, reflecting an institutional effort supported by church contributions to strengthen leadership capacity and improve mission efficiency in Northern Tanzania.
+        </p>
+
+        {/* FINANCIAL INFO */}
+        <div className="border-t pt-10 text-center space-y-4 text-gray-700">
+
+          <div>
+            <p className="text-sm text-gray-500">Total Budget</p>
+            <p className="text-xl font-semibold">10,600,000,000 TZS</p>
+          </div>
+
+          <div>
+            <p className="text-sm text-gray-500">Phase One</p>
+            <p className="text-xl font-semibold text-orange-600">
+              3,300,000,000 TZS
+            </p>
+          </div>
+
+          <div className="pt-4">
+            <p className="text-sm text-gray-500">Bank</p>
+            <p className="font-semibold">NMB Bank</p>
+          </div>
+
+          <div>
+            <p className="text-sm text-gray-500">Account Name</p>
+            <p className="font-semibold">
+              SDA Church Office Building – NTUC Headquarters
+            </p>
+          </div>
+
+          <div>
+            <p className="text-sm text-gray-500">Account Number</p>
+            <p className="text-2xl font-bold text-orange-600 tracking-widest">
+              40810276593
+            </p>
+          </div>
+
+        </div>
+
+        {/* FOOT IMAGE */}
+        <div className="overflow-hidden rounded-md">
+          <img
+            src="/img1.jpg"
+            alt="Construction progress"
+            className="w-full h-[220px] object-cover"
+          />
+        </div>
+
+        <p className="text-center text-xs text-gray-500">
+          All contributions are designated for the NTUC Headquarters Construction Project.
+        </p>
+
+      </section>
     </div>
   );
 }
