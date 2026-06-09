@@ -93,7 +93,7 @@ export default function About() {
 
           <div className="mt-16 pt-8 border-t border-gray-200 text-center">
             <p className="text-lg font-medium text-orange-600">
-              Serving God, Sharing Hope, Transforming Lives.
+              Intergrated For Mission.
             </p>
           </div>
 
