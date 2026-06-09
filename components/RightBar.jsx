@@ -30,7 +30,7 @@ export default function RightBar() {
           bg-gradient-to-b from-orange-600 to-black
           flex flex-col items-center justify-start
           py-3 z-50
-          border-l border-white/10
+          border-l border-orange-600
         "
       >
         <img

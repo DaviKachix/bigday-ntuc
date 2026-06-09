@@ -20,7 +20,7 @@ export default function About() {
           />
 
           <div className="absolute bottom-4 left-4 bg-white/90 px-4 py-2 rounded-lg text-sm font-medium text-orange-600">
-            {isEN ? "Northern Tanzania Mission Field" : "Uwanja wa Utume Kaskazini Tanzania"}
+            {isEN ? "Northern Tanzania Mission Field" : "Misheni ya Kaskazini mwa Tanzania"}
           </div>
         </div>
 
@@ -30,7 +30,7 @@ export default function About() {
           <h2 className="text-3xl md:text-4xl font-bold text-orange-600 leading-tight">
             {isEN
               ? "Northern Tanzania Union Conference"
-              : "Mkutano wa Muungano wa Kaskazini Tanzania"}
+              : "Unioni ya Kaskazini mwa Tanzania"}
           </h2>
 
           <p className="mt-5 text-gray-600 leading-relaxed">
@@ -41,8 +41,8 @@ export default function About() {
 
           <p className="mt-5 text-gray-600 leading-relaxed">
             {isEN
-              ? "NTUC covers the northern region of Tanzania including Kilimanjaro, Arusha, Mara, and surrounding areas, serving through strong mission institutions and church networks."
-              : "NTUC inahudumia kanda ya kaskazini ya Tanzania ikijumuisha Kilimanjaro, Arusha, Mara na maeneo ya jirani kupitia taasisi imara za utume na mitandao ya makanisa."}
+              ? "NTUC covers the northern region of Tanzania including Kilimanjaro, Arusha, Mara, Mwanza, Shinyanga, Lake Victoria Regions and surrounding areas, serving through strong mission institutions and church networks."
+              : "NTUC inahudumia kanda ya kaskazini ya Tanzania ikijumuisha Kilimanjaro, Arusha, Mara, Mwanza, Shinyanga na Ukanda wa Ziwa Victoria na maeneo ya jirani kupitia taasisi imara za utume na mitandao ya makanisa."}
           </p>
 
           <p className="mt-5 text-gray-600 leading-relaxed">

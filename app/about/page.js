@@ -48,14 +48,14 @@ export default function About() {
 
               <p>
                 It operates through more than 2,000 churches and companies, supporting over
-                446,000 members across multiple regions.
+                900,000 members across multiple regions.
               </p>
 
               <div className="pt-4 space-y-2 text-sm text-gray-600 border-l-2 border-orange-600 pl-4">
                 <p>Over 2,000 Churches & Companies</p>
-                <p>446,000+ Members</p>
+                <p>900,000+ Members</p>
                 <p>Universities, Schools & Training Institutions</p>
-                <p>Hospitals, Clinics & ADRA Tanzania Programs</p>
+                <p>Hospitals, Media, Clinics & ADRA Tanzania Programs</p>
               </div>
 
             </div>
@@ -68,7 +68,7 @@ export default function About() {
           <p className="text-gray-700 leading-relaxed">
             The gospel work in Tanzania began in 1903 under the Tanzania Union Mission and was later reorganized in 2013.
             Today NTUC stands strengthened by both mission heritage and natural landmarks such as Mount Kilimanjaro,
-            Serengeti, and Ngorongoro.
+            Serengeti,Ngorongoro and Nyanza Lake Victoria Regions.
           </p>
 
           <p className="mt-6 font-semibold text-orange-600">

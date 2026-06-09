@@ -44,7 +44,7 @@ export default function Give() {
             </p>
 
             <h2 className="text-4xl md:text-5xl font-bold text-orange-600">
-              10,000,000,000 TZS
+              10,600,000,000 TZS
             </h2>
 
             <p className="text-gray-600">
