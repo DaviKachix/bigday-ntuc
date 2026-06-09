@@ -54,8 +54,8 @@ export default function About() {
           {/* FINAL QUOTE */}
           <div className="mt-10 border-l-4 border-orange-600 pl-5 italic text-gray-700">
             {isEN
-              ? "Welcome to NTUC — serving with humility, mission, and purpose."
-              : "Karibu NTUC — tukitumikia kwa unyenyekevu, utume na kusudi."}
+              ? "Welcome to NTUC — Intergrated For Mission."
+              : "Karibu NTUC — tumeunganishwa kwa ajili ya Utume"}
           </div>
 
         </div>
